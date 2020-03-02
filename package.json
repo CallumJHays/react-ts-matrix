@@ -1,0 +1,55 @@
+{
+  "name": "react-ts-matrix",
+  "version": "1.0.0",
+  "description": "Intuitive Matrix Editor with React-Component Elements and Inbuilt MathJax Support",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CallumJHays/react-ts-matrix.git"
+  },
+  "keywords": [
+    "Matrix",
+    "editor",
+    "tilegrid",
+    "tiles",
+    "grid",
+    "mathjax"
+  ],
+  "author": "callumjhays@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CallumJHays/react-ts-matrix/issues"
+  },
+  "homepage": "https://github.com/CallumJHays/react-ts-matrix#readme",
+  "dependencies": {
+    "react": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@storybook/addon-actions": "^5.2.8",
+    "@storybook/addon-info": "^5.2.8",
+    "@storybook/addons": "^5.2.8",
+    "@storybook/react": "^5.2.8",
+    "@types/react": "^16.9.17",
+    "@types/styled-jsx": "^2.2.8",
+    "babel-loader": "^8.0.6",
+    "deepmerge": "^4.2.2",
+    "object-assign": "^4.1.1",
+    "postcss-preset-env": "^6.7.0",
+    "prop-types": "^15.7.2",
+    "react-docgen-typescript-loader": "^3.6.0",
+    "storybook": "^5.1.11",
+    "styled-jsx": "^3.2.4",
+    "styled-jsx-plugin-postcss": "^2.0.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.4",
+    "webpack-cli": "^3.3.10"
+  }
+}
